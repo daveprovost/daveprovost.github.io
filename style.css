@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+
 .grid-container {
   display: grid;
   grid-template-columns: 20% auto 20%;
@@ -16,6 +18,8 @@
 .item1 {
   grid-column-start: 1;
   grid-column-end: 3;
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
 }
 .item2 {
   grid-column-start:1;
