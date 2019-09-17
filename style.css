@@ -2,8 +2,26 @@
     box-sizing: border-box;
 }
 
+a{
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 180px;
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    background-color: grey;
+    color: white;
+}
+
+a:hover, a:active {
+    background-color: dimgrey;
+}
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .container {
@@ -14,28 +32,53 @@ body {
 .header {
     display: flex;
     align-items: center;
-    background-color: #343148;
+    /*background-color: #343148;*/
     height: 200px;
     width: 100%;
     padding: 10px;
     text-align: left;
 }
 
+.projects{
+    display:flex;
+    flex-wrap: wrap;
+}
+.projects >div{
+    flex: 1 0 200px;
+    min-height: 250px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    background-color: lightgray;
+    padding: 5px;
+    border-radius: 10px
+}
+
 .title {
-    color: white;
+    /*color: white;*/
     font-family: 'Playfair Display', serif;
     font-weight: 900;
     font-size: 60px;
 }
 .section {
-    font-size: 40px;
+    display: flex;
+    font-size: 30px;
     font-family: 'Playfair Display', serif;
     font-weight: 900;
+    width: 100%;
+}
+.social a{
+    display:inline-flex;
+    align-items: ;
+    width: 60px;
+    background-color: inherit
+}
+.content{
 }
 .col-wrap{
     display: flex;
     flex-direction: row;
-    height:100vh
+    /*height:100vh*/
 }
 
 .column {
@@ -44,7 +87,8 @@ body {
 
 .column.side {
     flex: 0 0 200px;
-    background-color: #CDDC39;
+    text-align: center;
+    /*background-color: #CDDC39;*/
     color: #343148;
     font-family: 'Playfair Display', serif;
     font-weight:900;
@@ -54,9 +98,7 @@ body {
 
 .column.main {
     flex:1;
-    overflow-y: visible;
-    overflow-x: hidden;
-    background-color:#A69CAC;
+    /*background-color:#A69CAC;*/
 }
 
 .footer {
