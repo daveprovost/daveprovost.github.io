@@ -47,7 +47,7 @@ body {
     display:flex;
     flex-wrap: wrap;
 }
-.projects >div{
+/*.projects >div{
     flex: 1 0 200px;
     margin-top: 15px;
     margin-bottom: 5px;
@@ -56,8 +56,20 @@ body {
     color: white;
     padding: 10px;
     border-radius: 10px
+}*/
+.projects a{
+    display:flex;
+    flex: 1 0 200px;
+    flex-direction: column;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    background-color: #0d324d;
+    color: white;
+    padding: 10px;
+    border-radius: 10px
 }
-
 .title {
     /*color: white;*/
     font-family: 'Playfair Display', serif;
