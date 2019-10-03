@@ -1,25 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,900|Source+Sans+Pro|Yatra+One&effect=anaglyph&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Staatliches|Source+Sans+Pro|Yatra+One&display=swap');
 
 * {
     box-sizing: border-box;
 }
 
 a{
-    display:inline-flex;
-    justify-content: center;
-    align-items: center;
-    height: 60px;
-    width: 180px;
     text-decoration: none;
-}
-
-a:link, a:visited {
-    background-color: #61892f;
-    color: #222629;
-}
-
-a:hover, a:active {
-    background-color: #86c232;
 }
 
 body {
@@ -31,8 +17,8 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
     background-color: #222629;
 }
 
@@ -50,53 +36,56 @@ body {
     display:flex;
     flex-wrap: wrap;
 }
-/*.projects >div{
-    flex: 1 0 200px;
-    margin-top: 15px;
-    margin-bottom: 5px;
-    margin-right: 10px;
-    background-color: #0d324d;
-    color: white;
-    padding: 10px;
-    border-radius: 10px
-}*/
+
 .projects a{
     flex: 1 0 200px;
     flex-direction: column;
     height: auto;
-    margin-top: 15px;
+    margin-top: 10px;
     margin-bottom: 5px;
     margin-right: 10px;
     background-color: #6b6e70;
     color: white; 
     padding: 0px 10px 0px 10px;
-    border-radius: 10px
+    border-radius: 10px;
+    padding-bottom: 10px;
 }
-.projects p::first-line{
-    font-family: 'Playfair Display', serif;
-    font-weight: 900;
+
+.projects a:visited{
+    color: white;
+    background-color: #6b6e70;
 }
+
+.projects a:hover{
+    background-color: #585B5C;
+}
+
+.projects p{ 
+    font-family: 'Staatliches', sans-serif;
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
 .title {
     color: #86C232;
-    font-family: 'Playfair Display', serif;
-    font-weight: 900;
-    font-size: 60px;
+    font-family: 'Staatliches', sans-serif;
+    font-size: 80px;
 }
 .section {
     display: flex;
-    font-size: 30px;
-    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-family: 'Staatliches', serif;
     color: #6b6e70;
-    font-weight: 900;
     width: 100%;
+    margin-top: 10px
 }
+
 .social a{
     display:inline-flex;
     align-items: center;
     width: 60px;
     background-color: inherit
-}
-.content{
 }
 
 .col-wrap{
@@ -112,23 +101,46 @@ body {
 .column.side {
     flex: 0 0 200px;
     text-align: center;
-    /*background-color: #CDDC39;*/
     color: #343148;
-    font-family: 'Playfair Display', serif;
-    font-weight:900;
-    font-size: 24px
+    font-family: 'Staatliches', serif;
+    font-size: 36px;
+}
 
+.column.side a{
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 180px;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.column.side > a:link, a:visited {
+    background-color: #61892f;
+    color: #222629;
+}
+
+.column.side > a:hover, a:active {
+    background-color: #86c232;
 }
 
 .column.main {
     flex:1;
-    /*background-color:#A69CAC;*/
 }
 
-.footer {
-    background-color: #9da2ab;
-    color: white;
-    padding: 10px;
+.column.main a {
+    float: right;
+    display: inline-flex;
+    border-radius: 10px;
+    background-color: #474b4f;
+    color:white;
+    padding-right: 5px;
+}
+
+.column.main a:hover {
+    background-color: #585B5C;
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
