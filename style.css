@@ -82,10 +82,7 @@ body {
 }
 
 .social a{
-    display:inline-flex;
-    align-items: center;
-    width: 60px;
-    background-color: inherit
+    
 }
 
 .col-wrap{
@@ -130,7 +127,7 @@ body {
     flex:1;
 }
 
-.column.main a {
+.download a {
     float: right;
     display: inline-flex;
     border-radius: 10px;
@@ -139,7 +136,7 @@ body {
     padding-right: 5px;
 }
 
-.column.main a:hover {
+.download a:hover {
     background-color: #585B5C;
 }
 
