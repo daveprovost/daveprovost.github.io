@@ -14,6 +14,12 @@ body {
     color: white;
 }
 
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Staatliches', sans-serif;
+    font-size: 28px;
+    font-weight:normal;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -45,7 +51,7 @@ body {
     margin-bottom: 5px;
     margin-right: 10px;
     background-color: #6b6e70;
-    color: white; 
+    color: white;
     padding: 0px 10px 0px 10px;
     border-radius: 10px;
     padding-bottom: 10px;
@@ -60,7 +66,7 @@ body {
     background-color: #585B5C;
 }
 
-.projects p{ 
+.projects p{
     font-family: 'Staatliches', sans-serif;
     font-size: 20px;
     margin-bottom: 0px;
@@ -75,14 +81,14 @@ body {
 .section {
     display: flex;
     font-size: 40px;
-    font-family: 'Staatliches', serif;
-    color: #6b6e70;
+    font-family: 'Staatliches', sans-serif;
+    color: #61892f;
     width: 100%;
     margin-top: 10px
 }
 
 .social a{
-    
+
 }
 
 .col-wrap{
@@ -151,14 +157,14 @@ body {
 /* Virtual Communities Navbar Stuff */
 .navbar {
   overflow: hidden;
-  background-color: #6b6e70;
+  background-color: #61892f;
   font-family: 'Staatliches', sans-serif;
 }
 
 .navbar a {
   float: left;
-  font-size: 16px;
-  color: white;
+  font-size: 20px;
+  color: #222629;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -170,10 +176,10 @@ body {
 }
 
 .dropdown .dropbtn {
-  font-size: 16px;  
+  font-size: 20px;
   border: none;
   outline: none;
-  color: white;
+  color: #222629;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
@@ -187,7 +193,7 @@ body {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: #6b6e70;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -195,7 +201,7 @@ body {
 
 .dropdown-content a {
   float: none;
-  color: black;
+  color: #222629;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -203,7 +209,7 @@ body {
 }
 
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: #61892f;
 }
 
 .dropdown:hover .dropdown-content {
