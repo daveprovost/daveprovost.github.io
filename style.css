@@ -162,7 +162,7 @@ h3,h4,h5,h6 {
 }
 
 .credits {
-    text-align:right;
+    
     color:#6b6e70;
 }
 
@@ -249,16 +249,17 @@ h3,h4,h5,h6 {
   display: block;
 }
 
-.videoWrapper {
+/*.videoWrapper {
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
+  padding-bottom: 56.25%;
   height: 0;
 }
 
 .videoWrapper iframe {
+  float:right;
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: 50%;*/
 }
