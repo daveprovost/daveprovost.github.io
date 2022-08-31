@@ -163,6 +163,21 @@ h3,h4,h5,h6 {
     background-color: #231f20;
 }
 
+.artifact a {
+    text-align: center;
+    float: right;
+    border-radius: 10px;
+    background-color: #990000;
+    color:#FAFAFF;
+    padding:15px;
+    margin-left:20px;
+    margin-bottom:20px;
+}
+
+.artifact a:hover {
+    background-color: #231f20;
+}
+
 .credits {
     color:#231f20;
 }
@@ -248,6 +263,14 @@ h3,h4,h5,h6 {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.plo {
+  background-color: #990000;
+  color:#FAFAFF;
+  font-size: 200%;
+  font-weight: bold;
+  padding: 5px 10px;
 }
 
 /*.videoWrapper {
